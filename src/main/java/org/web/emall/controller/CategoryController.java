@@ -21,6 +21,7 @@ public class CategoryController {
 
 //    @GetMapping("/category/all")
     public ResponseModel getCategoryAll() {
+        // HAHAHHA
         List<Category> categoryAll = categoryService.getAll();
         if(categoryAll != null) {
             return new ResponseModel(0,categoryAll,"success");
